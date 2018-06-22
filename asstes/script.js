@@ -69,11 +69,6 @@
       var minutesAway = $('<td>').text(diff)
       row.append(minutesAway)
 
-// this clclot nest arrivel inds td and appendd to row
-// colculat minutes awat and but in td useing momen js
-console.log(data.fristtrain.split(","))
-var testData=moment().hours(10).minutes(0).seconds(0).format("h: mm a")
-console.log(testData)
       return row
 
   }
